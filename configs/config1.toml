@@ -1,0 +1,14 @@
+[Settings]
+mesh_path = 'src/Simulation/bay.msh'
+tStart = 0.0
+tEnd = 0.7
+num_steps = 200
+
+[FishingGround]
+x_range = [0.0 , 0.45]
+y_range = [0.0 , 0.20]
+
+[IO]
+logName = "OilFishingSummary"
+writeFrequency = 15
+restartFile = "oil_distribution.json"
